@@ -34,12 +34,12 @@
     gap:3.5625rem;
     height:28.0625rem;
     padding-top:4.125rem;
-    background-image:url('https://github.com/CihanGonen/sunnySide-landingPage/blob/main/images/mobile/image-header.jpg');
+    background-image:url('../images/mobile/image-header.jpg');
     background-size:100%;
     background-position: bottom;
     background-repeat: no-repeat;
     @include breakpoint-up(small){
-      background-image:url('https://github.com/CihanGonen/sunnySide-landingPage/blob/main/images/desktop/image-header.jpg');
+      background-image:url('../images/desktop/image-header.jpg');
     }
     h1{ 
       margin:0;
