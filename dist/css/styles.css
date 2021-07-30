@@ -194,7 +194,7 @@ button, .button {
   gap: 3.5625rem;
   height: 28.0625rem;
   padding-top: 4.125rem;
-  background-image: url(/images/mobile/image-header.jpg);
+  background-image: url("../../images/mobile/image-header.jpg");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ button, .button {
 
 @media (min-width: 23.45rem) {
   .header__content {
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url("../../images/desktop/image-header.jpg");
   }
 }
 
@@ -463,22 +463,22 @@ button, .button {
 }
 
 .main .graphic-design {
-  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-image: url("images/mobile/image-graphic-design.jpg");
 }
 
 @media (min-width: 40em) {
   .main .graphic-design {
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url("images/desktop/image-graphic-design.jpg");
   }
 }
 
 .main .photography {
-  background-image: url(/images/mobile/image-photography.jpg);
+  background-image: url("images/mobile/image-photography.jpg");
 }
 
 @media (min-width: 40em) {
   .main .photography {
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url("images/desktop/image-photography.jpg");
   }
 }
 
@@ -605,19 +605,19 @@ button, .button {
 }
 
 .images .imgMilk {
-  background-image: url("/images/mobile/image-gallery-milkbottles.jpg");
+  background-image: url("../../images/mobile/image-gallery-milkbottles.jpg");
 }
 
 .images .imgOrange {
-  background-image: url("/images/mobile/image-gallery-orange.jpg");
+  background-image: url("../../images/mobile/image-gallery-orange.jpg");
 }
 
 .images .imgCone {
-  background-image: url("/images/mobile/image-gallery-cone.jpg");
+  background-image: url("../../images/mobile/image-gallery-cone.jpg");
 }
 
 .images .imgSugar {
-  background-image: url("/images/mobile/image-gallery-sugar-cubes.jpg");
+  background-image: url("../../images/mobile/image-gallery-sugar-cubes.jpg");
 }
 
 .footer {
