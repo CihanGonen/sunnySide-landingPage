@@ -1,0 +1,72 @@
+.testimonials{
+  padding-bottom:5.75rem;
+  padding-top:4.3125rem;
+  @include breakpoint-up(large){
+    padding-top:10.375rem;
+    padding-bottom:10.25rem;
+  }
+  h2{
+    margin:0;
+    text-align:center;
+    letter-spacing: 0.3125rem;
+    font-weight: $thin;
+    font-size:0.875rem;
+    color:$grayishBlue;
+
+    @include breakpoint-up(large){
+      font-size:1.125rem; 
+    }
+
+  }
+
+  &__cardWrapper{
+   
+    @include breakpoint-up(large){
+      display:flex;
+      gap:2.9375rem;
+      padding:0 10.75rem;  
+    }
+  }
+
+  &__cards{
+    
+    padding-top:4.25rem;
+
+    &--img{
+      margin:0 auto;
+      width:4.5rem;
+      height:4.5rem;
+      img{
+        width:100%;
+        border-radius:50%;
+      }
+    }
+
+    &--text{
+      margin:0;
+      padding-top:2.625rem;
+      text-align:center;
+      color:$veryDarkGrayishBlue;
+      line-height:1.6rem;
+    }
+
+    &--author{
+      margin:0;
+      padding-top:2.75rem;
+      text-align:center;
+      font-weight:$bold;
+      font-size:$font-med;
+    }
+
+    &--job{
+      margin:0;
+      padding-top:1rem;
+      text-align:center;
+      font-weight:$font-sm;
+      font-size:$thin;
+      color:$grayishBlue;
+    }
+
+  }
+
+}

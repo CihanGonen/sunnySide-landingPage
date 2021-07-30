@@ -1,0 +1,43 @@
+.footer{
+  height:21.875rem;
+  background-color:hsl(168, 34%, 70%);
+  text-align:center;
+
+  &__logo{
+    display:block;
+    padding-top:4rem;
+    img{
+      width:10.625rem;
+      height:2.0625rem;
+    }
+  }
+
+  &__links{
+    padding-top:2.9375rem;
+    a{
+      color:#458c7e;
+      font-size:$font-med;
+      &:not(:last-child){
+        padding-right:3.75rem;
+      }
+    }
+  }
+
+  &__social{
+    padding-top:5.8125rem;
+    a{
+      &:not(:last-child){
+        padding-right:1.8125rem;
+      }
+    }
+  }
+
+  &__attribution{
+    padding-top:2rem;
+    color:#458c7e;
+    a{
+      color:$veryDarkDesaturatedBlue;
+    }
+  }
+
+}

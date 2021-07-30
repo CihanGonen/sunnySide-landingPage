@@ -1,0 +1,112 @@
+.header{
+  position: relative;
+  background-color:$cyanBackground;
+
+  .nav{
+    height:5.5625rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+
+    &__links{
+      a{
+        color:$white;
+        &:not(:last-child){
+          padding-right:3.25rem;
+        }
+      }
+      .button{
+        background-color:$white;
+        font-size:12px;
+        padding:1.1rem 2.2rem;
+        color:$veryDarkDesaturatedBlue;
+        transition:all 300ms ease-in-out;
+        &:hover{
+         background-color:#6bd2fd;
+         color:$white;
+         transition:all 300ms ease-in-out;
+        }
+      }
+    }
+
+  }
+
+  &__content{
+    gap:3.5625rem;
+    height:28.0625rem;
+    padding-top:4.125rem;
+    background-image:url(/images/mobile/image-header.jpg);
+    background-size:100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    @include breakpoint-up(small){
+      background-image:url(/images/desktop/image-header.jpg);
+    }
+    h1{ 
+      margin:0;
+      font-size:36px;
+      font-weight:$bold;
+      letter-spacing: .5rem;
+      color:$white;
+      text-align:center;
+      @include breakpoint-up(small){
+        letter-spacing:0.875rem;
+        font-size:48px;
+      }
+    }
+
+    img{
+      width:2.25rem;
+      height:7.125rem;
+    }
+  }
+
+  &__popUpWrapper{
+    width:calc(100% - 2.875rem);
+    margin:0 auto;
+
+    .triangle-wrapper{
+      position:relative;
+      overflow:hidden;
+      height:1.4375rem;
+      .triangle{
+        position:absolute;
+        top:0px;
+        right:0px;
+        bottom:-150%;
+        background-color:$white;
+        width:1.4375rem;
+        transform:rotate(45deg);
+      }
+    }
+  
+    &__popUpMenu{
+      width:calc(100% - 2.875rem);
+      position:absolute;
+      left:50%;
+      transform:translateX(-50%);
+      padding:1.6875rem;
+      background:$white;
+  
+      a{
+        display:block;
+        margin:0 auto;
+        width:8.75rem;
+        padding:1.375rem;
+        text-align:center;
+        font-size:$font-med;
+        font-weight:400;
+        color:$darkGrayishBlue;
+      }
+      .button{
+        font-size:14px;
+        margin-top:1.375rem;
+        padding:1.2rem 2.1rem;
+        color:$veryDarkDesaturatedBlue;
+      }
+    }  
+    @include breakpoint-up(large){
+      display:none;
+    }
+  }
+  
+}
