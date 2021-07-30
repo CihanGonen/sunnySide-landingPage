@@ -194,7 +194,7 @@ button, .button {
   gap: 3.5625rem;
   height: 28.0625rem;
   padding-top: 4.125rem;
-  background-image: url("images/mobile/image-header.jpg");
+  background-image: url("../../images/mobile/image-header.jpg");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ button, .button {
 
 @media (min-width: 23.45rem) {
   .header__content {
-    background-image: url("images/desktop/image-header.jpg");
+    background-image: url("../../images/desktop/image-header.jpg");
   }
 }
 
